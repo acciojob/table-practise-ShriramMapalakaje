@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+/* General Table Styling */
+table {
+  background-color: yellow;
+  border: 1px solid black;
+  border-collapse: separate; /* Allows for the inset spacing look in the image */
+  border-spacing: 5px;
+  font-family: serif;
+  width: 300px;
+}
+
+/* Caption Styling */
+caption {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 5px;
+  color: black;
+}
+
+/* Border and Padding for cells */
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Header Specific Styling */
+th {
+  font-weight: bold;
+}
+
+/* Matches the specific border style seen in the example image */
+tr {
+  border: 1px solid black;
+}
